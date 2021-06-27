@@ -12,5 +12,4 @@ jobs:
 
     steps:
       - run: echo ${{secrets.MY_SECRET}}
-      - uses: ./.github/workflows/build
       - run: Application succesfully deployed!

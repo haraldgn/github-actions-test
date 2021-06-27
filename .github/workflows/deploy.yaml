@@ -12,4 +12,4 @@ jobs:
 
     steps:
       - run: echo ${{secrets.MY_SECRET}}
-      - run: Application succesfully deployed!
+      - run: echo 'Application succesfully deployed!'
